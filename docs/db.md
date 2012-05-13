@@ -4,8 +4,8 @@ DataBase
 User information:
 -----------------
 
-* Nickname (public)
 * Id
+* Nickname (public)
 * Name (private, shared)
 * Surname (private, shared)
 * email (private, shared)
@@ -15,8 +15,8 @@ User information:
 Item information:
 -----------------
 
-* Name
 * Id
+* Name
 * Type: Book, film (DVD & Bluray), CD, Videogame (PS3, XBOX, Wii, etc)
 * Description (include other useful information: author for book or composer for CD)
 * Picture (only the image path)
@@ -27,6 +27,7 @@ Item information:
 Sharing information:
 --------------------
 
+* Id
 * Id owner
 * Id borrower
 * Id item
@@ -37,9 +38,19 @@ Sharing information:
 iWant information:
 ------------------
 
+* Id
 * Id item
 * Id requester
 * Date requested
+
+Feedback information:
+---------------------
+
+* Id
+* Id author
+* Id sharing
+* Date
+* Description
 
 Statistics (calculated from database):
 --------------------------------------
